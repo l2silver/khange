@@ -38,6 +38,7 @@
     "babel-preset-react": "^6.24.1"
   },
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "lodash.get": "^4.4.2",
     "react": "^15.5.4"
   }
