@@ -1,6 +1,6 @@
 {
   "name": "khange",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handle prop init and change triggers",
   "main": "dist/index.js",
   "scripts": {
@@ -18,27 +18,22 @@
   "keywords": [
     "khange"
   ],
-  "neutrino": {
-    "use": [
-      "neutrino-preset-react"
-    ]
-  },
   "author": "Leigh Silverstein",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/l2silver/kkhange/issues"
+    "url": "https://github.com/l2silver/khange/issues"
   },
-  "homepage": "https://github.com/l2silver/kkhange#readme",
+  "homepage": "https://github.com/l2silver/khange#readme",
   "devDependencies": {
-    "flow-bin": "^0.47.0",
-    "flow-copy-source": "^1.1.0",
     "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-flow": "^6.23.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.47.0",
+    "flow-copy-source": "^1.1.0"
   },
   "dependencies": {
-    "babel-preset-es2015": "^6.24.1",
     "lodash.get": "^4.4.2",
     "react": "^15.5.4"
   }
